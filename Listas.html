@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas No HTML</title>
+    <link rel="shortcut icon" href="Imagens gerais/IMG html/html-5.png" type="image/x-icon">    <link rel="stylesheet" href="CSS gerais/CSS inicial/style.css">
+
+    <link rel="stylesheet" href="CSS gerais/CSS Listas/Style.css">
+</head>
+
+<body>
+
+    <!-- navegação -->
+    <div class="navegação">
+        <nav>
+            <ul>
+                <a href="../Html/html.html">HTML</a>
+                <a href="../CSS/css.html">CSS</a>
+                <a href="../Javascript/javascript.html">JavaScript</a>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <!-- lista de itens -->
+        <div class="lista">
+            <ul>
+                <h1>HTML tutorial</h1>
+                <li><a href="Listas.html">HTML Listas</a></li>
+                <li><a href="Imagens.html">HTML Imagens</a></li>
+                <li><a href="Tabelas.html">HTML Tabela</a></li>
+                <li><a href="Input.html">HTML Input</a></li>
+            </ul>
+        </div>
+
+        <!-- Cabeçalho -->
+
+        <div class="page">
+            <H1>Listas No HTML</H1>
+            <p><strong>Resumo:</strong> As listas desempenham um papel essencial na organização <strong>hierárquica ou
+                    sequencial</strong> de
+                informações,
+                proporcionando uma compreensão <br>mais clara e estruturada de dados relacionados a um determinado
+                <strong>tema</strong>.
+            </p>
+
+            <table>
+                <tr>
+                    <th>Tags</th>
+                    <th>Tradução</th>
+                    <th>Função</th>
+                </tr>
+                <tr id="dois">
+                    <td>&lt;ol&gt;</td>
+                    <td>Ordered Lists</td>
+                    <td>Criar uma Lista Ordenada.</td>
+                </tr>
+                <tr>
+                    <td>&lt;ul&gt;</td>
+                    <td>Unordered Lists</td>
+                    <td>Criar uma Lista não Ordenada.</td>
+                </tr>
+
+                <tr id="um">
+                    <td>&lt;li&gt;</td>
+                    <td>List information</td>
+                    <td>Acrescenta Uma Informação a Alguma Lista.</td>
+                </tr>
+            </table>
+            <br>
+            <hr>
+
+            <!-- tipos de listas -->
+            <!-- lista não ordenada -->
+
+            <h1>Listas Não Ordenadas</h1>
+            <p>As <strong>listas não ordenadas</strong> são listas que não contem uma ordem ou hierarquia previa,
+                exibindo informações
+                com um
+                caracter simples.</p>
+            <p><strong>&lt;ul&gt;</strong>: para criar uma lista sem ordem primeiro colocamos a tag
+                <strong>&lt;ul&gt;</strong> e acrescentamos
+                informações em
+                seu
+                meio com a tag <strong>&lt;li&gt;.</strong>
+            </p>
+            <img src="Imagens gerais/IMG Listas/ul.png" alt="lista não ordenada">
+            <p><strong>Resultado:</strong></p>
+            <ul id="quatro">
+                <li>Html</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+            </ul>
+            <br>
+            <br>
+            <hr>
+            <p>Podemos acrescentar o atributo <strong>type (tipo)</strong> na tabela sem ordem, este atributo muda o
+                icone
+                que
+                antecede o item da
+                lista <strong>(•)</strong>, temos tres tipos de caracter para utilizar na lista sendo eles o
+                <strong>Quadrado,Circulo e
+                    Disco
+                    (Square,Circle,Disc)</strong>
+            </p>
+
+
+            <img src="Imagens gerais/IMG Listas/type.png" alt="lista não ordenada">
+
+
+            <p><strong>Resultado:</strong></p>
+            <ul type="square">
+                <li>Html</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+            </ul>
+
+            <ul type="circle">
+                <li>Html</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+            </ul>
+
+            <ul type="disc">
+                <li>Html</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+            </ul>
+            <hr>
+            <!-- lista ordenada -->
+            <h1>Listas Ordenadas</h1>
+            <p>As listas ordenadas são listas que contem uma ordem ou hierarquia previa, exibindo informações com uma
+                ordem.
+            </p>
+            <p><strong>&lt;ol&gt;</strong>: para criar uma lista com ordem primeiro colocamos a tag
+                <strong>&lt;ol&gt;</strong> e acrescentamos
+                informações em
+                seu
+                meio com a tag <strong>&lt;li&gt;.</strong>
+            </p>
+            <img src="Imagens gerais/IMG Listas/ol.png" alt="Lista com ordem">
+            <p><strong>Resultado</strong></p>
+            <ol id="tres">
+                <li>Html</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+            </ol>
+            <br>
+            <br>
+            <hr>
+            <p>Podemos acrescentar o atributo <strong>type (tipo)</strong> na tabela com ordem, este atributo muda a
+                forma
+                que
+                ordenamos os itens da nossa lista, temos quatro tipos de ordens que podemos utilizar na nossa lista
+                sendo
+                eles o
+                <strong>a, A, I e 1
+                    (Letras minusculas, Letras Maiusculas, Algarismos romanos, Numeros)</strong>
+            </p>
+            <img src="Imagens gerais/IMG Listas/type_ol.png" alt="">
+
+            <p><strong>Resultado:</strong></p>
+
+            <ol type="a">
+                <li>Html</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+            </ol>
+
+            <ol type="A">
+                <li>Html</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+            </ol>
+
+            <ol type="I">
+                <li>Html</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+            </ol>
+
+            <ol type="1">
+                <li>Html</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+            </ol>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
