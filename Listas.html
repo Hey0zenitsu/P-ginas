@@ -1,80 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listas No HTML</title>
-    <link rel="shortcut icon" href="Imagens gerais/IMG html/html-5.png" type="image/x-icon">    <link rel="stylesheet" href="CSS gerais/CSS inicial/style.css">
-
-    <link rel="stylesheet" href="CSS gerais/CSS Listas/Style.css">
+    <link rel="stylesheet" href="CSSUniversal/main.css">
+    <title>Páginas</title>
 </head>
-
 <body>
-
-    <!-- navegação -->
-    <div class="navegação">
-        <nav>
+    <!-- navegacao -->
+<div class="navegacao">
+    <nav>
             <ul>
                 <a href="../Html/html.html">HTML</a>
                 <a href="../CSS/css.html">CSS</a>
                 <a href="../Javascript/javascript.html">JavaScript</a>
             </ul>
-        </nav>
-    </div>
+    </nav>
+</div>
+<!-- fim da navegacao -->
+<!-- container -->
     <div class="container">
-        <!-- lista de itens -->
-        <div class="lista">
-            <ul>
-                <h1>HTML tutorial</h1>
-                <li><a href="Listas.html">HTML Listas</a></li>
-                <li><a href="Imagens.html">HTML Imagens</a></li>
-                <li><a href="Tabelas.html">HTML Tabela</a></li>
-                <li><a href="Input.html">HTML Input</a></li>
-            </ul>
-        </div>
-
-        <!-- Cabeçalho -->
-
-        <div class="page">
-            <H1>Listas No HTML</H1>
+        <!-- lista de att -->
+            <div class="lista">
+                <ul>
+                    <h1>HTML tutorial</h1>
+                    <li><a href="Listas.html">HTML Listas</a></li>
+                    <li><a href="Imagens.html">HTML Imagens</a></li>
+                    <li><a href="Tabelas.html">HTML Tabela</a></li>
+                    <li><a href="Input.html">HTML Input</a></li>
+                </ul>
+            </div>
+            <!-- fim da lista -->
+            <!-- pagina -->
+            <div class="page">
+                <H1>Listas No HTML</H1>
             <p><strong>Resumo:</strong> As listas desempenham um papel essencial na organização <strong>hierárquica ou
                     sequencial</strong> de
                 informações,
                 proporcionando uma compreensão <br>mais clara e estruturada de dados relacionados a um determinado
                 <strong>tema</strong>.
             </p>
-
-            <table>
+            <div class="table">
+            <table id="table_definied">
                 <tr>
-                    <th>Tags</th>
-                    <th>Tradução</th>
-                    <th>Função</th>
+                  <th id="topo-l">Tag</th>
+                  <th>Tradução</th>
+                  <th>Função</th>
+                  <th id="topo-r">Exemplo</th>
                 </tr>
-                <tr id="dois">
+                <tr>
                     <td>&lt;ol&gt;</td>
                     <td>Ordered Lists</td>
                     <td>Criar uma Lista Ordenada.</td>
+                  <td>&lt;ol&gt; &lt;li&gt;primeiro item&lt;/li&gt; &lt;/ol&gt;</td>
                 </tr>
                 <tr>
                     <td>&lt;ul&gt;</td>
                     <td>Unordered Lists</td>
                     <td>Criar uma Lista não Ordenada.</td>
+                  <td>&lt;ul&gt; &lt;li&gt;primeiro item&lt;/li&gt; &lt;/ul&gt;</td>
                 </tr>
-
-                <tr id="um">
+                <tr id="inf-l">
                     <td>&lt;li&gt;</td>
                     <td>List information</td>
                     <td>Acrescenta Uma Informação a Alguma Lista.</td>
+                    <td>&lt;li&gt;primeiro item&lt;/li&gt;</td>
                 </tr>
             </table>
-            <br>
-            <hr>
-
-            <!-- tipos de listas -->
-            <!-- lista não ordenada -->
-
-            <h1>Listas Não Ordenadas</h1>
+        </div>
+        <h1>Listas Não Ordenadas</h1>
             <p>As <strong>listas não ordenadas</strong> são listas que não contem uma ordem ou hierarquia previa,
                 exibindo informações
                 com um
@@ -95,7 +89,7 @@
             </ul>
             <br>
             <br>
-            <hr>
+            <hr id="boldline-gray">
             <p>Podemos acrescentar o atributo <strong>type (tipo)</strong> na tabela sem ordem, este atributo muda o
                 icone
                 que
@@ -131,9 +125,13 @@
                 <li>JavaScript</li>
                 <li>TypeScript</li>
             </ul>
-            <hr>
-            <!-- lista ordenada -->
-            <h1>Listas Ordenadas</h1>
+                
+                <!-- fim do card container -->
+                <!-- itens extras -->
+                
+                <div class="color-black">
+                <hr id="boldline">
+                    <h1>Listas Ordenadas</h1>
             <p>As listas ordenadas são listas que contem uma ordem ou hierarquia previa, exibindo informações com uma
                 ordem.
             </p>
@@ -194,10 +192,13 @@
                 <li>JavaScript</li>
                 <li>TypeScript</li>
             </ol>
+                </div>
+                </div>
+            </div>
         </div>
-
-
     </div>
+    <!-- fim da pagina -->
+    <!-- fim do container -->
+    <script src="js.js"></script>
 </body>
-
 </html>

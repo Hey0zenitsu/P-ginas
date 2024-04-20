@@ -1,107 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagens HTML</title>
-    <link rel="shortcut icon" href="Imagens gerais/IMG html/html-5.png" type="image/x-icon">    <link rel="stylesheet" href="CSS gerais/CSS inicial/style.css">
-
-    <link rel="stylesheet" href="CSS gerais/CSS Img/style.css">
+    <link rel="stylesheet" href="CSSUniversal/main.css">
+    <title>Páginas</title>
 </head>
-
 <body>
-
-    <!-- navegação -->
-    <div class="navegação">
-        <nav>
+    <!-- navegacao -->
+<div class="navegacao">
+    <nav>
             <ul>
                 <a href="../Html/html.html">HTML</a>
                 <a href="../CSS/css.html">CSS</a>
                 <a href="../Javascript/javascript.html">JavaScript</a>
             </ul>
-        </nav>
-    </div>
+    </nav>
+</div>
+<!-- fim da navegacao -->
+<!-- container -->
     <div class="container">
-
-        <!-- lista de itens -->
-        <div class="lista">
-            <ul> 
-                <h1>HTML tutorial</h1>
-                <li><a href="Listas.html">HTML Listas</a></li>
-                <li><a href="Imagens.html">HTML Imagens</a></li>
-                <li><a href="Tabelas.html">HTML Tabela</a></li>
-                <li><a href="Input.html">HTML Input</a></li>
-            </ul>
-            <p id="teste"></p>
-        </div>
-
-        <!-- Cabeçalho -->
-
-        <div class="page">
-            <H1>Imagens No HTML</H1>
+        <!-- lista de att -->
+            <div class="lista">
+                <ul> 
+                    <h1>HTML tutorial</h1>
+                    <li><a href="Listas.html">HTML Listas</a></li>
+                    <li><a href="Imagens.html">HTML Imagens</a></li>
+                    <li><a href="Tabelas.html">HTML Tabela</a></li>
+                    <li><a href="Input.html">HTML Input</a></li>
+                </ul>
+            </div>
+            <!-- fim da lista -->
+            <!-- pagina -->
+            <div class="page">
+                <H1>Imagens No HTML</H1>
             <p><strong>Resumo:</strong> As imagens são ferramentas que facilitam a compreensão de um assunto. Aprender a
                 integrar imagens em sua página é um passo essencial para desenvolver sites cada vez mais interessantes.
                 Existem diversos tipos de imagens e várias extensões que podemos utilizar, como por
                 <strong>exemplo: (jpg, png,
                     gif...).</strong>
             </p>
-
-            <table>
+            <div class="table">
+            <table id="table_definied">
                 <tr>
-                    <th>Tags</th>
-                    <th>Atributos</th>
-                    <th>Função</th>
-                </tr>
-                <tr id="dois">
-                    <td>&lt;img&gt;</td>
-                    <td>Src (Source)</td>
-                    <td>Liga um arquivo a nossa pagína</td>
+                  <th id="topo-l">Tag</th>
+                  <th>Descrição</th>
+                  <th>Função</th>
+                  <th id="topo-r">Exemplo</th>
                 </tr>
                 <tr>
                     <td>&lt;img&gt;</td>
                     <td>Alt</td>
                     <td>Nomeia a imagem (Obrigatorio)</td>
+                  <td>&lt;src:"Exemplo" alt:"nome_img"&gt;</td>
                 </tr>
-
-                <tr id="um">
+                <tr id="inf-l">
                     <td>&lt;img&gt;</td>
                     <td>Width e Height</td>
                     <td>Dimencionam uma imagem nos eixos (x) e (y).</td>
+                  <td>width: 100%; height: 500px;</td>
                 </tr>
             </table>
-            <br>
-            <hr>
-
-            <!-- tipos de listas -->
-            <!-- imagens locias -->
-
-            <h1>Imagens Locais</h1>
+        </div>
+        <h1>Imagens Locais</h1>
             <p><strong>Explicação:</strong><br>
                 Pode parecer um pouco confuso no começo, mas vamos por partes. A primeira coisa que você deve fazer é
                 acrescentar uma tag <strong>&lt;img&gt;</strong>. Depois, acrescentamos o atributo
                 <strong>(src)</strong>,
-                <strong><img src=""></strong>. Em seguida, identificamos o diretório da imagem, <strong>&lt;img
+                <strong>&lt;img src:""&gt;</strong>. Em seguida, identificamos o diretório da imagem, <strong>&lt;img
                     src="Exemplo/Exemplo.png"&gt;</strong>. Após isso, acrescentamos o atributo <strong>(alt)</strong>
                 para nomear a
                 imagem, <strong>&lt;img src="Exemplo/Exemplo.png" alt="Nome_da_imagem"&gt;</strong>. Se o diretório
                 estiver
                 correto, sua imagem será apresentada.
             </p>
-
             <p><strong>Exemplo:</strong></p>
             <img src="Imagens gerais/IMG Img/exemplo1.png" alt="exemplo1" id="dois">
             <br>
             <p><strong>Local do diretorio:</strong></p>
-            <img src="Imagens gerais/IMG Img/exemplo.png" alt="diretorio" id="um">
+            <img src="Imagens gerais/IMG Img/exemplo.png" alt="diretorio"  >
             <br>
             <p><Strong>Resultado:</Strong></p>
-            <img src="Imagens gerais/IMG Img/Bananinhas.jpg" alt="Exemplo" id="um">
-            <hr>
-
-            <!-- imagens não locais -->
-
-            <h1>Imagens Não Locais</h1>
+            <img src="Imagens gerais/IMG Img/Bananinhas.jpg" alt="Exemplo"  >
+                <!-- itens extras -->
+                <hr id="boldline">
+                <div class="color-black">
+                    <h1>Imagens Não Locais</h1>
             <p><Strong>Explicação:</Strong></p>
             <p>Quando desejamos utilizar uma imagem que não esteja em nosso computador, podemos seguir a mesma estrutura
                 descrita anteriormente. No entanto, em vez de acrescentarmos o diretório, adicionamos o link da imagem a
@@ -109,14 +93,14 @@
             </p>
 
             <p><strong>Exemplo:</strong></p>
-            <img src="Imagens gerais/IMG Img/exemplo não local.png" alt="exemplo1" id="dois">
+            <img src="Imagens gerais/IMG Img/exemplo não local.png" alt="exemplo1">
             <br>
             <p><strong>Local do diretorio:</strong></p>
-            <img src="Imagens gerais/IMG Img/exemplo 2.png" alt="diretorio" id="um">
+            <img src="Imagens gerais/IMG Img/exemplo 2.png" alt="diretorio" >
             <br>
             <p><Strong>Resultado:</Strong></p>
             <img src="https://cdn.leonardo.ai/users/7f1e75cd-6052-41df-9d3e-f9acd28edeb1/generations/5e4cd92f-6b66-4309-bcab-549b058ad348/3D_Animation_Style_banana_with_legs_1.jpg"
-                alt="Exemplo" id="um">
+                alt="Exemplo"  >
             <hr>
             <h1>Dimencionamento: width e Height</h1>
             <p>Quando quemos modificar o <strong>tamanho de uma imagem</strong>, recorremos a dois atributos <strong>
@@ -126,33 +110,16 @@
                 de medidas
                 simples <strong>(pixels e porcentagens),</strong> observe a baixo uma imagem ilustrativa.</p>
             <br>
-            <img src="Imagens gerais/IMG Img/dimencao.png" alt="width e Height" id="um">
-            <hr>
-            <h1>Pixeis:</h1>
-            <p>quando queremos fazer algo para um tipo de tela específica, utilizamos pixeis, pois é uma medida padrão,
-                e não responsiva por padrão.</p>
+            <img src="Imagens gerais/IMG Img/dimencao.png" alt="width e Height">
+            <P>não iremos nos aprofundar muito a respeito desses atributos, pois, os atributos de personalização são do setor CSS, então, caso queira saber mais sobre, passe lá😁</P>
 
-            <img src="Imagens gerais/IMG Img/imagem em pixel.png" alt="pixels" id="um">
-            <p><strong>leitura de imagem:</strong> Quando utilizamos pixeis para dimencionar uma imagem, está não se
-                redimenciona conforme a tela, porém, cria-se uma barra de rolagem para que você possa visualizar-la
-                utilizandoa</p>
-            <hr>
-            <h1>Porcentagem:</h1>
-            <p>Porcentagem é variável dependente da tela em que é exibida, então, caso seja redimensionada, ela se
-                modificará para exibir a porcentagem de tela devida.</p>
-            <img src="Imagens gerais/IMG Img/porcentagem.png" alt="porcentagem" id="um">
-            <p><strong>leitura de imagem:</strong> está se dimenciona conforme o tamanho da tela de exibição, invez de
-                criar uma barra de rolagem, está se dimenciona conforme o tamanho da tela, porcentagem é um tipo de
-                medida responsiva.</p>
-            <hr>
-            <h1>Como Usar as medidas</h1>
-            <h2>Aplicando os valores</h2>
-
-            <p>Os atributos width e height podem ser preenchidos com valores expecificos, a contagem de pixel vai varear
-                do tamanho em que você deseja aplicar em uma imagem, estes tipos de atributos são utilizados no css
-                inline ou externo.</p>
+                </div>
+                </div>
+            </div>
         </div>
-<script src="JS gerais/Button.js"></script>
+    </div>
+    <!-- fim da pagina -->
+    <!-- fim do container -->
+    <script src="js.js"></script>
 </body>
-
 </html>
