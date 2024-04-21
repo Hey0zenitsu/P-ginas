@@ -149,7 +149,7 @@ margin-right: 20px;
 /* imagens pagina */
 
 img{
-    width: auto;
+    width: 80%;
     height: auto;
     margin: 30px;
     border-radius: 10px;
@@ -249,12 +249,13 @@ transition: 0.2s;
 }
 #table_definied {
     font-family: Arial, Helvetica, sans-serif;
-    width: 90%;
+    width: 68%;
     background-color: white;
     font-family: "open sans";
     border-radius: 11px;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
@@ -286,4 +287,7 @@ transition: 0.2s;
   #inf-l{
     border-bottom-left-radius: 11px;
     border-bottom-right-radius: 11px;
+  }
+  table{
+    margin-left: 30px;
   }

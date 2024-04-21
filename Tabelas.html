@@ -1,107 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas No HTM</title>
-    <link rel="shortcut icon" href="Imagens gerais/IMG html/html-5.png" type="image/x-icon">    <link rel="stylesheet" href="CSS gerais/CSS inicial/style.css">
-
-    <link rel="stylesheet" href="CSS gerais/CSS Tabela/style.css">
+    <link rel="stylesheet" href="CSSUniversal/main.css">
+    <title>Páginas</title>
 </head>
-
 <body>
-
-    <!-- navegação -->
-    <div class="navegação">
-        <nav>
-            <ul>
-                <a href="../Html/html.html">HTML</a>
-                <a href="../CSS/css.html">CSS</a>
-                <a href="../Javascript/javascript.html">JavaScript</a>
-            </ul>
-        </nav>
-    </div>
+    <!-- navegacao -->
+<div class="navegacao">
+    <nav>
+                <ul>
+                    <a href="../Html/html.html">HTML</a>
+                    <a href="../CSS/css.html">CSS</a>
+                    <a href="../Javascript/javascript.html">JavaScript</a>
+                </ul>
+    </nav>
+</div>
+<!-- fim da navegacao -->
+<!-- container -->
     <div class="container">
-        <!-- lista de itens -->
-        <div class="lista">
-            <ul>
-                <h1>HTML tutorial</h1>
-                <li><a href="Listas.html">HTML Listas</a></li>
-                <li><a href="Imagens.html">HTML Imagens</a></li>
-                <li><a href="Tabelas.html">HTML Tabela</a></li>
-                <li><a href="Input.html">HTML Input</a></li>
-            </ul>
-        </div>
+        <!-- lista de att -->
+            <div class="lista">
+                <ul>
+                    <h1>HTML tutorial</h1>
+                    <li><a href="Listas.html">HTML Listas</a></li>
+                    <li><a href="Imagens.html">HTML Imagens</a></li>
+                    <li><a href="Tabelas.html">HTML Tabela</a></li>
+                    <li><a href="Input.html">HTML Input</a></li>
+                </ul>
 
-        <!-- Cabeçalho -->
-
-        <div class="page">
-            <H1>Tabelas No HTML</H1>
-            <p>Resumo:As tabelas são estruturas com colunas feitas para organizar as informações, ordenando-as por
+                </ul>
+            </div>
+            <!-- fim da lista -->
+            <!-- pagina -->
+            <div class="page">
+                <H1>Tabelas No HTML</H1>
+            <p><b>Resumo:</b> As tabelas são estruturas com colunas feitas para organizar as informações, ordenando-as por
                 tópico, cada coluna deve contar um cabeçalho (th) e linhas (tr) para termos uma estrutura de tabela, por
                 fim, e não menos importante, temos as informações da tabela que utilizaremos a tag (td) para
                 preenchermos a estrutura.
             </p>
+            <div class="table">
+            <table id="table_definied">
+            <tr>
+                  <th id="topo-l">Tag</th>
+                  <th>Atributos </th>
+                  <th>Tradução</th>
+                  <th id="topo-r">Função</th>
+            </tr>
+            <tr>
+                  <td>&lt;table&gt;</td>
+                  <td>Define uma tabela HTML</td>
+                  <td>Contém todos os elementos da tabela</td>
+                  <td>&lt;table border="1"&gt;</td>
+            </tr>
+            </tr>
+            <tr>
+                <td>&lt;Th&gt;</td>
+                <td>Colspan e Rowspan</td>
+                <td>Cabeçalho da tabela</td>
+                <td>Define um cabeçalho para a tabela</td>
+            </tr>
 
-            <table>
-                <tr>
-                    <th id="cinco">Tags</th>
-                    <th id="cinco">Atributos </th>
-                    <th id="cinco">Tradução</th>
-                    <th id="cinco">Função</th>
-                </tr>
-                <tr>
-                    <td>&lt;Table&gt;</td>
-                    <td></td>
-                    <td>Tabela</td>
-                    <td>Define uma tabela</td>
-                </tr>
-                <tr id="um">
-                    <td>&lt;Th&gt;</td>
-                    <td>Colspan e Rowspan</td>
-                    <td>Cabeçalho da tabela</td>
-                    <td>Define um cabeçalho para a tabela</td>
-                </tr>
-
-                <tr>
-                    <td>&lt;Tr&gt;</td>
-                    <td>Colspan e Rowspan</td>
-                    <td>Informação da tabela</td>
-                    <td>Define uma informação na tabela</td>
-                </tr>
-                <tr id="um">
-                    <td>&lt;Td&gt;</td>
-                    <td></td>
-                    <td>Cabeçalho da tabela</td>
-                    <td>Define um cabeçalho para a tabela</td>
-                </tr>
-
+            <tr>
+                <td>&lt;Tr&gt;</td>
+                <td>Colspan e Rowspan</td>
+                <td>Informação da tabela</td>
+                <td>Define uma informação na tabela</td>
+            </tr>
+            <tr id="inf-l">
+                <td>&lt;Td&gt;</td>
+                <td></td>
+                <td>Dados da tabela</td>
+                <td>Define um dado de tabela</td>
+            </tr>
             </table>
-            <br>
-            <hr>
-
-            <!-- tipos de listas -->
-            <!-- lista não ordenada -->
-
+        </div>
             <h1>Tabelas</h1>
-            <h2>Explicação:</h2>
+            <h1>Explicação:</h1>
             <p>as tabelas são itens utilizados para separar, agrupar e organizar informações, separando as informações
                 de forma organizada, auxiliamos ao usuário a ler as informações de forma mais fácil, sua estrutura é
                 simples e fácil de se lidar, devemos apenas memorizar o que cada tag faz, e seus significados para não
                 termos dificuldade no futuro.</p>
-            <hr>
-            <h2>Como Utilizar:</h2>
+            <h1>Como Utilizar:</h1>
             <p>Para criarmos uma tabela faremos uma estrutura simples, primeiro colocamos a tag
                 &lt;Table&gt; que cria uma tabela, utilizando a tag &lt;Tr&gt; faremos os tópicos da nossa tabela, após
                 acrescentarmos o &lt;Th&gt; para preencher as informações do nosso cabeçalho.
             </p>
-            <h2>Exemplo:</h2>
+            <h1>Exemplo:</h1>
             <img src="Imagens gerais/IMG Tabela/Estrutura.png" alt="Tabela">
             <p>Após criarmos a primeira linha da nossa tabela, devemos acrescentar mais linha a estrutura de tabela,
                 para isso utilizamos a estrutura de linhas &lt;Tr&gt; (linha da tabela), e acrescentamos informações a
                 ela com o &lt;Td&gt;.</p>
-            <h2>Exemplo:</h2>
+            <h1>Exemplo:</h1>
             <img src="Imagens gerais/IMG Tabela/EstruturaF.png" alt="Tabela1">
 
             <p><strong>Resultado:</strong></p>
@@ -134,84 +126,86 @@
             </table>
             <br>
             <br>
-            <hr>
-            <h2>
-                Atributos Colspan e Rowspan
-            </h2>
 
-            <p>Resumo: As tabelas são itens que contém áreas, estás áreas tem seu tamanho e suas informações, podemos
-                modificar os espaços das áreas com os atributos Colspam (Coluna) e Rowspan (Linha), em certas ocasiões
-                devemos utiliza-las então é sempre importante saber que esses atributos existem.</p>
-            <h2>Colspan</h2>
-            <p>O atributo colspan serve para ligar um bloco a outro no sentido horizontal, podemos ligar vários blocos
-                de uma só vez, assim tornando em um bloco maior.</p>
-            <p>Estrutura:</p>
-            <img src="Imagens gerais/IMG Tabela/EstruturaC.png" alt="Rowspan">
-            <p>Resultado:</p>
 
-            <table id="a" border="1">
-                <tr>
-                    <th>Preço</th>
-                    <th>Produto</th>
-                    <th>Cor</th>
-                </tr>
-
-                <tr>
-                    <td>2 reais</td>
-                    <td>caneta</td>
-                    <td>Azul</td>
-                </tr>
-
-                <tr>
-                    <td>5 reais</td>
-                    <td colspan="2">Borracha</td>
-                </tr>
-
-                <tr>
-                    <td>10 reais</td>
-                    <td>penal</td>
-                    <td>Azul-escuro</td>
-                </tr>
-            </table>
-
-            <hr>
-            <h2>Rowspan</h2>
-            <p>O atributo colspan serve para ligar um bloco a outro no sentido vertical, podemos ligar vários blocos de
-                uma só vez, assim tornando em um bloco maior.</p>
-            <img src="Imagens gerais/IMG Tabela/estruturarow.png" alt="Rowspan">
-            <p>Resultado:</p>
-
-            <table id="a" border="1">
-                <tr>
-                    <th>Preço</th>
-                    <th>Produto</th>
-                    <th>Cor</th>
-                </tr>
-
-                <tr>
-                    <td>2 reais</td>
-                    <td>caneta</td>
-                    <td rowspan="2">Azul</td>
-                </tr>
-
-                <tr>
-                    <td>5 reais</td>
-                    <td>Borracha</td>
-
-                </tr>
-
-                <tr>
-                    <td>10 reais</td>
-                    <td>penal</td>
-                    <td>Azul-escuro</td>
-                </tr>
-            </table>
+                <!-- fim do card container -->
+                <!-- itens extras -->
+                <div class="color-black">
+                    <hr id="boldline">
+                    <h1>
+                        Atributos Colspan e Rowspan
+                    </h1>
+                    <p><b>Resumo:</b> As tabelas são itens que contém áreas, estás áreas tem seu tamanho e suas informações, podemos
+                        modificar os espaços das áreas com os atributos Colspam <b>(Coluna)</b> e Rowspan <b>(Linha)</b>, em certas ocasiões
+                        devemos utiliza-las então é sempre importante saber que esses atributos existem.</p>
+                    <h1>Colspan</h1>
+                    <p>O atributo colspan serve para ligar um bloco a outro no sentido horizontal, podemos ligar vários blocos
+                        de uma só vez, assim tornando em um bloco maior.</p>
+                    <p>Estrutura:</p>
+                    <img src="Imagens gerais/IMG Tabela/EstruturaC.png" alt="Rowspan">
+                    <p>Resultado:</p>
+        
+                    <table id="a" border="1">
+                        <tr>
+                            <th>Preço</th>
+                            <th>Produto</th>
+                            <th>Cor</th>
+                        </tr>
+        
+                        <tr>
+                            <td>2 reais</td>
+                            <td>caneta</td>
+                            <td>Azul</td>
+                        </tr>
+        
+                        <tr>
+                            <td>5 reais</td>
+                            <td colspan="2">Borracha</td>
+                        </tr>
+        
+                        <tr>
+                            <td>10 reais</td>
+                            <td>penal</td>
+                            <td>Azul-escuro</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <h1>Rowspan</h1>
+                    <p>O atributo colspan serve para ligar um bloco a outro no sentido vertical, podemos ligar vários blocos de
+                        uma só vez, assim tornando em um bloco maior.</p>
+                    <img src="Imagens gerais/IMG Tabela/estruturarow.png" alt="Rowspan">
+                    <p>Resultado:</p>
+        
+                    <table id="a" border="1">
+                        <tr>
+                            <th>Preço</th>
+                            <th>Produto</th>
+                            <th>Cor</th>
+                        </tr>
+        
+                        <tr>
+                            <td>2 reais</td>
+                            <td>caneta</td>
+                            <td rowspan="2">Azul</td>
+                        </tr>
+        
+                        <tr>
+                            <td>5 reais</td>
+                            <td>Borracha</td>
+        
+                        </tr>
+        
+                        <tr>
+                            <td>10 reais</td>
+                            <td>penal</td>
+                            <td>Azul-escuro</td>
+                        </tr>
+                    </table>
+                 </div>
         </div>
     </div>
-    <div class="footer">
-        <hr>
-    </div>
-
+    <!-- fim da pagina -->
+    <!-- fim do container -->
+    <script src="js.js"></script>
 </body>
-
 </html>
