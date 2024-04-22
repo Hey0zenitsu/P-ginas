@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSSUniversal/main.css">
+    <link rel="shortcut icon" href="Imagens gerais/IMG html/html-5.png" type="image/x-icon">    
     <title>Páginas</title>
 </head>
 <body>  
@@ -14,6 +15,8 @@
                     <a href="../Html/html.html">HTML</a>
                     <a href="../CSS/css.html">CSS</a>
                     <a href="../Javascript/javascript.html">JavaScript</a>
+                    <img src="Imagens gerais/IMG Img/menu.png" alt="menu" id="btn_menu" onclick="sumir(lista,pag,nav)">
+
                 </ul>
     </nav>
 </div>
@@ -94,8 +97,7 @@
                 meio com a tag <strong>&lt;input&gt;.</strong> depois definimos de que tipo esse input é utilizando o
                 atributo type.
             <h1>Alguns exemplos:</h1>
-            </p>
-            <hr>
+            <br>
             <p><strong>Butão:</strong></p>
             <img src="Imagens gerais/IMG Input/EXEMPLO INPUT1.png" alt="botão">
             <p><strong>Resultado:</strong></p>
@@ -110,7 +112,7 @@
                 tipo de arquivo de processamento.
             </p>
             <br>
-            <hr>
+            <hr id="boldline-gray">
             <br>
             <p><strong>Radio:</strong></p>
             <img src="Imagens gerais/IMG Input/EXEMPLO INPUT RADIO.png" alt="RADIO">
@@ -132,7 +134,7 @@
                 vez. Existe uma variação chamada checkbox que permite seleção múltipla, mas o radio tem a peculiaridade
                 de permitir apenas uma escolha individual.</p>
             <br>
-            <hr>
+            <hr id="boldline-gray">
             <br>
             <p><strong>Texto:</strong></p>
             <img src="Imagens gerais/IMG Input/EXEMPLO INPUT TEXTO.png" alt="text box">
@@ -170,7 +172,7 @@
             <br>
             <br>
             <br>
-            <hr>
+            <hr id="boldline-gray">
             <br>
             <p><strong>&lt;Textarea&gt;</strong>:</p>
             <p>Ao contrário da tag &lt;Input&gt; que é usada para campos de texto de uma linha, a tag &lt;Textarea&gt;
@@ -182,6 +184,7 @@
             <br>
             <form>
                 <label for="message">Mensagem:</label>
+                <br>
                 <textarea id="message" name="message" rows="4" cols="50">
                     Digite sua mensagem aqui...
                 </textarea>
@@ -195,6 +198,6 @@
     </div>
     <!-- fim da pagina -->
     <!-- fim do container -->
-    <script src="js.js"></script>
+    <script src="JavaScript/Script.js"></script>
 </body>
 </html>

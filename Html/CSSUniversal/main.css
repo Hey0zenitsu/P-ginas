@@ -46,6 +46,12 @@
     background-color: #111;
     transition: 0.2s;
 }
+#btn_menu{
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+    float: inline-end;
+}
 
 nav a::after {
     content: "";
@@ -77,6 +83,7 @@ nav a:hover::after {
     grid-column-end: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 100%;
+    transition: 0.5s;
 }
 .lista a:hover{
     font-size: 17px;
@@ -136,7 +143,7 @@ margin-right: 20px;
     margin: 10px 30px 10px 40px;
 }
 .page #textou{
-    margin: 0px;
+    margin-top: 5px;
 }
 .page label{
     margin: 0px 0px 0px 40px;
@@ -157,7 +164,7 @@ margin-right: 20px;
 
 /* imagens pagina */
 
-img{
+.page img{
     width: 80%;
     height: auto;
     margin: 30px;
@@ -255,10 +262,10 @@ transition: 0.2s;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 #table_definied {
     font-family: Arial, Helvetica, sans-serif;
-    width: 68%;
     background-color: white;
     font-family: "open sans";
     border-radius: 11px;
@@ -299,4 +306,80 @@ transition: 0.2s;
   }
   table{
     margin-left: 30px;
+  }
+.page textarea{
+    margin: 10px 30px 10px 40px;
+    width: 80%;
+}
+/* btn */
+/* lista aulas */
+.oculto{
+    background-color: #212121;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 0%;
+    transition: 0.5s;
+}
+.oculto a:hover{
+    font-size: 17px;
+    transition: 0.2s;
+    background-color: #000000;
+    padding: 20px;
+    margin: none;
+    border: solid 1px;
+    border-color: lightblue;
+}
+
+.oculto a{
+    display: block;
+    text-decoration: none;
+    color: #CCCCCC;
+    font-family: "Open Sans";
+    font-size: 13px;
+    margin: 5px;
+    text-align: center;
+    transition: 0.2s;
+}
+.oculto ul{
+    padding: 0px;
+}
+
+.oculto h1{
+    font-family: 'Open Sans';
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+  /* Media screen  */
+
+  @media (max-width: 450px){
+    .container .page{
+        width: 100%;
+    }
+    .container .lista a{
+        font-size: 10px;
+    }
+    .container .lista h1{
+    font-size: 12px;
+    margin: 0px;
+    }
+    .oculto a:hover{
+        padding: 2px;
+     }
+
+     .container .oculto a{
+        font-size: 10px;
+    }
+    .container .oculto h1{
+    font-size: 12px;
+    margin: 0px;
+    }
+    .oculto a:hover{
+        padding: 2px;
+     }
+
+
+     
   }

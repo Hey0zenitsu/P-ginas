@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens gerais/IMG html/html-5.png" type="image/x-icon">    
+
     <link rel="stylesheet" href="CSSUniversal/main.css">
     <title>Páginas</title>
 </head>
 <body>
     <!-- navegacao -->
-<div class="navegacao">
+<div class="navegacao" id="nav">
     <nav>
             <ul>
                 <a href="../Html/html.html">HTML</a>
                 <a href="../CSS/css.html">CSS</a>
                 <a href="../Javascript/javascript.html">JavaScript</a>
-            </ul>
+                <img src="Imagens gerais/IMG Img/menu.png" alt="menu" id="btn_menu" onclick="sumir(lista,pag,nav)">
+</ul>
     </nav>
 </div>
 <!-- fim da navegacao -->
 <!-- container -->
     <div class="container">
         <!-- lista de att -->
-            <div class="lista">
+            <div class="lista" id="lista">
                 <ul> 
                     <h1>HTML tutorial</h1>
                     <li><a href="Listas.html">HTML Listas</a></li>
@@ -32,7 +35,7 @@
             </div>
             <!-- fim da lista -->
             <!-- pagina -->
-            <div class="page">
+            <div class="page" id="page">
                 <H1>Imagens No HTML</H1>
             <p><strong>Resumo:</strong> As imagens são ferramentas que facilitam a compreensão de um assunto. Aprender a
                 integrar imagens em sua página é um passo essencial para desenvolver sites cada vez mais interessantes.
@@ -45,20 +48,18 @@
                 <tr>
                   <th id="topo-l">Tag</th>
                   <th>Descrição</th>
-                  <th>Função</th>
-                  <th id="topo-r">Exemplo</th>
+                  <th id="topo-r">Função</th>
                 </tr>
                 <tr>
                     <td>&lt;img&gt;</td>
                     <td>Alt</td>
                     <td>Nomeia a imagem (Obrigatorio)</td>
-                  <td>&lt;src:"Exemplo" alt:"nome_img"&gt;</td>
+                  
                 </tr>
                 <tr id="inf-l">
                     <td>&lt;img&gt;</td>
                     <td>Width e Height</td>
                     <td>Dimencionam uma imagem nos eixos (x) e (y).</td>
-                  <td>width: 100%; height: 500px;</td>
                 </tr>
             </table>
         </div>
@@ -121,6 +122,6 @@
     </div>
     <!-- fim da pagina -->
     <!-- fim do container -->
-    <script src="js.js"></script>
+    <script src="JavaScript/Script.js"></script>
 </body>
 </html>
