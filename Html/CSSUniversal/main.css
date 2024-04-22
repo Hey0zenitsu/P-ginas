@@ -132,6 +132,15 @@ margin-right: 20px;
 .page ul,ol{
     margin: 10px 30px 10px 40px;
 }
+.page input{
+    margin: 10px 30px 10px 40px;
+}
+.page #textou{
+    margin: 0px;
+}
+.page label{
+    margin: 0px 0px 0px 40px;
+}
 .color-black{
     color: white;
     padding-bottom: 30px;

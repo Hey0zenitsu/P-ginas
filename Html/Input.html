@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulários em HTML</title>
-    <link rel="shortcut icon" href="Imagens gerais/IMG html/html-5.png" type="image/x-icon">    <link rel="stylesheet" href="CSS gerais/CSS inicial/style.css">
-
-    <link rel="stylesheet" href="CSS gerais/CSS Input/Style.css">
+    <link rel="stylesheet" href="CSSUniversal/main.css">
+    <title>Páginas</title>
 </head>
-
-<body>
-
-    <!-- navegação -->
-    <div class="navegação">
-        <nav>
-            <ul>
-                <a href="../Html/html.html">HTML</a>
-                <a href="../CSS/css.html">CSS</a>
-                <a href="../Javascript/javascript.html">JavaScript</a>
-            </ul>
-        </nav>
-    </div>
+<body>  
+    <!-- navegacao -->
+<div class="navegacao">
+    <nav>
+                <ul>
+                    <a href="../Html/html.html">HTML</a>
+                    <a href="../CSS/css.html">CSS</a>
+                    <a href="../Javascript/javascript.html">JavaScript</a>
+                </ul>
+    </nav>
+</div>
+<!-- fim da navegacao -->
+<!-- container -->
     <div class="container">
-        <!-- lista de itens -->
-        <div class="lista">
-            <ul>
-                <h1>HTML tutorial</h1>
-                <li><a href="Listas.html">HTML Listas</a></li>
-                <li><a href="Imagens.html">HTML Imagens</a></li>
-                <li><a href="Tabelas.html">HTML Tabela</a></li>
-                <li><a href="Input.html">HTML Input</a></li>
-            </ul>
-        </div>
+        <!-- lista de att -->
+            <div class="lista">
+                <ul>
+                    <h1>HTML tutorial</h1>
+                    <li><a href="Listas.html">HTML Listas</a></li>
+                    <li><a href="Imagens.html">HTML Imagens</a></li>
+                    <li><a href="Tabelas.html">HTML Tabela</a></li>
+                    <li><a href="Input.html">HTML Input</a></li>
+                </ul>
 
-        <!-- Cabeçalho -->
-
-        <div class="page">
-            <H1>Formulários em HTML</H1>
+                </ul>
+            </div>
+            <!-- fim da lista -->
+            <!-- pagina -->
+            <div class="page">
+                <H1>Formulários em HTML</H1>
             <p>
                 <strong>Resumo:</strong> Os formulários são elementos de <strong>registro</strong>, o papel dos
                 <strong>&lt;inputs&gt;</strong> São
@@ -50,11 +48,12 @@
                 quem quer dar um passo a mais no Front-end.
             </p>
 
-            <table>
+            <div class="table">
+            <table id="table_definied">
                 <tr>
-                    <th>Tags</th>
+                    <th id="topo-l">Tags</th>
                     <th>atributos</th>
-                    <th>Função</th>
+                    <th id="topo-r">Função</th>
                 </tr>
                 <tr id="dois">
                     <td>&lt;Form&gt;</td>
@@ -78,18 +77,13 @@
                     <td>Cria uma estrutura espancivel, contendo varias outras alternativas.
                     <td>
                 </tr>
-                <tr id="um">
+                <tr id="inf-l">
                     <td>&lt;Textarea&gt;</td>
                     <td>Style</td>
                     <td>acrescenta uma area de texto, preenchivel com qualquer caracter.</td>
                 </tr>
             </table>
-            <br>
-            <hr>
-
-            <!-- tipos de listas -->
-            <!-- lista não ordenada -->
-
+        </div>
             <h1>Como criar um Input</h1>
             <p>A tag input é uma tag de entrada, e existem variações, para criarmos tipos diferentes de input utilizamos
                 o atributo type (tipo) para modificar o tipo do item. </p>
@@ -145,15 +139,19 @@
             <p><strong>Resultado:</strong></p>
             <FORM>
                 <label for="texto">Digite aqui:</label>
-                <input type="text" id="texto" name="texto">
+                <input type="text" id="textou" name="texto">
             </FORM>
             <br>
             <p>Os campos de texto input são áreas em que podemos inserir informações para serem armazenadas em bancos de
                 dados, realizarmos pesquisas, entre outras funcionalidades. São úteis em páginas de autenticação, como
                 registros ou logins. </p>
             <br>
-            <hr>
-            <h1>Bônus</h1>
+
+                <!-- fim do card container -->
+                <!-- itens extras -->
+                <div class="color-black">
+                    <hr id="boldline">
+                    <h1>Bônus</h1>
 
             <p><strong>&lt;Section&gt;</strong>:</p>
             <p>A tag &lt;Section&gt; é frequentemente combinada com a tag &lt;Option&gt;, que é usada para definir as
@@ -181,18 +179,22 @@
                 Aqui está um exemplo simples de como usar a tag &lt;Textarea&gt; em HTML:</p>
             <img src="Imagens gerais/IMG Input/EXEMPLO TEXTAREA.png" alt="Textarea">
             <p><strong>Resultado:</strong></p>
+            <br>
             <form>
                 <label for="message">Mensagem:</label>
                 <textarea id="message" name="message" rows="4" cols="50">
                     Digite sua mensagem aqui...
                 </textarea>
+                
                 <br>
                 <br>
                 <input type="submit" value="Enviar">
             </form>
-
+                 </div>
         </div>
     </div>
+    <!-- fim da pagina -->
+    <!-- fim do container -->
+    <script src="js.js"></script>
 </body>
-
 </html>
