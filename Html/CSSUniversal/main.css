@@ -85,6 +85,10 @@ nav a:hover::after {
     width: 100%;
     transition: 0.5s;
 }
+.lista li{
+    list-style: none;
+
+}
 .lista a:hover{
     font-size: 17px;
     transition: 0.2s;
@@ -352,12 +356,16 @@ transition: 0.2s;
     text-align: center;
     margin: 10px;
 }
+.oculto li{
+    list-style: none;
+}
   /* Media screen  */
 
   @media (max-width: 450px){
     .container .page{
         width: 100%;
     }
+
     .container .lista a{
         font-size: 10px;
     }
