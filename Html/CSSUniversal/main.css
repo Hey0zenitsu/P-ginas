@@ -367,8 +367,8 @@ transition: 0.2s;
     }
     .oculto a:hover{
         padding: 2px;
+        font-size: 11;
      }
-
      .container .oculto a{
         font-size: 10px;
     }
@@ -376,9 +376,11 @@ transition: 0.2s;
     font-size: 12px;
     margin: 0px;
     }
-    .oculto a:hover{
-        padding: 2px;
+    .lista a:hover{
+        padding: 0px;
+        margin: 0px;
      }
+    
 
 
      
