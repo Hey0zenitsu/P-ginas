@@ -18,7 +18,7 @@
     width: 15%;
 }
 .container .page{
-    width: 85%
+    width: 100%
 }
 /* navegacao */
 .navegacao ul {
@@ -52,7 +52,10 @@
     margin: 15px;
     float: right;
 }
-
+#btn_menu:active{
+    transform: rotate3d(180deg);
+    transition: 1s;
+}
 nav a::after {
     content: "";
     margin-top: 8px;
