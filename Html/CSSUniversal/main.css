@@ -86,7 +86,6 @@ nav a:hover::after {
     grid-column-end: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 100%;
-    transition: 0.5s;
 }
 .lista li{
     list-style: none;
@@ -326,13 +325,13 @@ transition: 0.2s;
     grid-column-end: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 0%;
-    transition: 0.5s;
+    transition: 1s;
 }
 .oculto a:hover{
-    font-size: 17px;
+    font-size: 0px;
     transition: 0.2s;
     background-color: #000000;
-    padding: 20px;
+    padding: 0px;
     margin: none;
     border: solid 1px;
     border-color: lightblue;
@@ -343,8 +342,8 @@ transition: 0.2s;
     text-decoration: none;
     color: #CCCCCC;
     font-family: "Open Sans";
-    font-size: 13px;
-    margin: 5px;
+    font-size: 0px;
+    margin: 0px;
     text-align: center;
     transition: 0.2s;
 }
@@ -354,10 +353,10 @@ transition: 0.2s;
 
 .oculto h1{
     font-family: 'Open Sans';
-    font-size: 17px;
+    font-size: 0px;
     color: white;
     text-align: center;
-    margin: 10px;
+    margin: 0px;
 }
 .oculto li{
     list-style: none;
@@ -377,14 +376,14 @@ transition: 0.2s;
     margin: 0px;
     }
     .oculto a:hover{
-        padding: 2px;
-        font-size: 11;
+        padding: 0px;
+        font-size: 0px;
      }
      .container .oculto a{
-        font-size: 10px;
+        font-size: 0px;
     }
     .container .oculto h1{
-    font-size: 12px;
+    font-size: 0px;
     margin: 0px;
     }
     .lista a:hover{
