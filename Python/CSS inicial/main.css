@@ -392,6 +392,13 @@ transition: 0.2s;
      .container .oculto a{
         font-size: 0px;
     }
+
+    .container .oculto1{
+        width: 0%;
+    }
+    .container .list1{
+        width: 0%;
+    }
     .container .oculto h1{
     font-size: 0px;
     margin: 0px;
