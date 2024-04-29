@@ -372,6 +372,11 @@ transition: 0.2s;
     list-style: none;
 }
   /* Media screen  */
+  @media (min-width: 460px){
+    .container .page{
+        margin-right: 50px;
+    }
+ }
 
   @media (max-width: 450px){
     .container .page{
@@ -406,9 +411,5 @@ transition: 0.2s;
     .lista a:hover{
         padding: 0px;
         margin: 0px;
-     }
-    
-
-
-     
+     }  
   }
