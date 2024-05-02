@@ -13,7 +13,7 @@ function sumir(lista,pag,nav) {
       lista.classList.add("lista");
       pag.style.width = "85%";
       nav.style.width = "100%";
-      lista.style.transition = "0.5s";
-      pag.style.transition = "0.5s";
+      lista.style.transition = "0.3s";
+      pag.style.transition = "0.3s";
     }}
    

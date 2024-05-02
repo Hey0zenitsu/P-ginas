@@ -111,8 +111,9 @@ nav a:hover::after {
     font-family: "Open Sans";
     font-size: 13px;
     margin: 5px;
-    text-align: center;
-    transition: 0.2s;
+    margin-left: 10%;
+    opacity: 100%;
+    transition: 0.3s;
 }
 .lista ul{
     padding: 0px;
@@ -124,6 +125,8 @@ nav a:hover::after {
     color: white;
     text-align: center;
     margin: 10px;
+    opacity: 100%;
+    transition: 0.3s;
 }
 
 /* barra lateral */
@@ -399,11 +402,11 @@ transition: 0.2s;
     grid-column-end: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 0%;
-    transition: 1s;
+    transition: 0.3s;
 }
 .oculto a:hover{
     font-size: 0px;
-    transition: 0.2s;
+    transition: 0s;
     background-color: #000000;
     padding: 0px;
     margin: none;
@@ -418,8 +421,9 @@ transition: 0.2s;
     font-family: "Open Sans";
     font-size: 0px;
     margin: 0px;
-    text-align: center;
-    transition: 0.2s;
+    margin-left: 0%;
+    opacity: 0;
+    transition: 0.3s;
 }
 .oculto ul{
     padding: 0px;
@@ -431,53 +435,13 @@ transition: 0.2s;
     color: white;
     text-align: center;
     margin: 0px;
+    opacity: 0;
+    transition: 0.5s;
 }
 .oculto li{
     list-style: none;
 }
 
-.oculto1{
-    background-color: #212121;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 0%;
-    transition: 1s;
-}
-.oculto1 a:hover{
-    font-size: 0px;
-    transition: 0.2s;
-    background-color: #000000;
-    padding: 0px;
-    margin: none;
-    border: solid 1px;
-    border-color: lightblue;
-}
-
-.oculto1 a{
-    display: block;
-    text-decoration: none;
-    color: #CCCCCC;
-    font-family: "Open Sans";
-    font-size: 0px;
-    margin: 0px;
-    text-align: center;
-    transition: 0.2s;
-}
-.oculto1 ul{
-    padding: 0px;
-}
-
-.oculto1 h1{
-    font-family: 'Open Sans';
-    font-size: 0px;
-    color: white;
-    text-align: center;
-    margin: 0px;
-}
-.oculto1 li{
-    list-style: none;
-}
   /* Media screen  */
  
   @media (max-width: 450px){
@@ -486,7 +450,7 @@ transition: 0.2s;
     }
 
     .container .lista a{
-        font-size: 10px;
+        font-size: 9px;
     }
     .container .lista h1{
     font-size: 12px;
@@ -507,8 +471,8 @@ transition: 0.2s;
         padding: 0px;
         margin: 0px;
      }
-    
-
-
-     
+    .page iframe{
+        height: 200px;
+        width: 300px;
+    }  
   }
