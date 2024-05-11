@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens gerais/IMG html/html-5.png" type="image/x-icon">    
+
+    <link rel="stylesheet" href="CSSUniversal/main.css">
+    <title>Páginas</title>
+</head>
+<body>
+    <!-- navegacao -->
+<div class="navegacao" id="nav">
+    <nav>
+            <ul>
+                <a href="../Html/html.html">HTML</a>
+                <a href="../CSS/css.html">CSS</a>
+                <a href="../Javascript/javascript.html">JavaScript</a>
+                <a href="../Python/Python.html">Python</a>
+                <img src="Imagens gerais/IMG Img/menu.png" alt="menu" id="btn_menu" onclick="sumir(lista,pag,nav,list1), sumir1(lista,pag,nav,list1)">
+            </ul>
+    </nav>
+</div>
+<!-- fim da navegacao -->
+<!-- container -->
+    <div class="container">
+         
+            <!-- pagina -->
+            <div class="page" id="page">
+               <h1>Estrutura Básica.</h1>
+               <p>Para montarmos uma estrutura em html não é presiso de muita coisa, basta termos um arquivo html <b>(ensinamos na ultima aula a fazer um.)</b> e escrevermos html:5 e pressionarmos tab <b>(botão na esquerda, em cima do capslock ou embaixo das aspas.)</b>, essa é uma forma de economizar tempo e partirmos direto para os finalmentes, veja só.</p>
+               <video src="Videos/Desktop 28-04-2024 14-42-59.mp4"controls
+               ></video>
+               <p>na nossa estrutura de código podemos observar a área head <b>(cabeça, &lt;head&gt;----&lt;/head&gt;)</b> que tem varios linhas em seu interior e a area body <b>(corpo, &lt;body&gt;----&lt;/body&gt;)</b> que guarda tudo o que será exibido no nosso site, no nosso caso, está em branco pois não colocamos nada em seu interior, veja só.</p>
+               <img src="Imagens gerais/IMG estruturas/Sem título.png" alt="exemplo">
+               <div class="color-black"> 
+                <hr id="boldline">
+                    <h1>Área Head</h1>
+                    <p>o head comporta as definições da nossa página, link entre um arquivo ou outro, qual idioma que está escrito o conteúdo, titulo da página entre outros.</p>
+                    <br><p><b>Principais itens presentes no head:</b></p>
+                <p><b>&lt;head&gt;</b>: Abre a seção de cabeçalho do documento html, onde são colocadas informações sobre páginas.
+<br><br>
+                    <b>&lt;meta charset=”utf-8”&gt;</b>: define o conjunto de caracteres como UTF-8, garantindo que o navegador interprete corretamente os caracteres especiais.
+                    <br><br>
+                    <b>&lt;meta name=”viewport” content=”width=DEVICE_Width, initial-scale=1.0”&gt;</b>: define a largura do tela e a escala inicial para dispositivos móveis, apresentando que a página seja exibida corretamente em diferentes tamanhos de tela.
+                    <br><br>
+                    <b>&lt;title&gt;</b> Tela inicial <b>&lt;/title&gt;</b>: Define o titulo da página que  será exibido na barrra de título do navegador.
+                    <br><br>
+                    <b>&lt;/head&gt;</b>: Fecha a seção do cabeçalho.
+                    </p><br><br>
+                    <p><b>Não é nessesario lidarmos com está parte ainda, se quiser, pode lidar com isso por conta, mas por enquanto, vamos focar na nossa página o que realmente vemos quando estamos projetando um site.</b></p>
+                    <br>
+                    <hr id="boldline-gray">
+                    <h1>Área Body</h1>
+                    <p>O body é a parte mais importante desta atividade, é apartir desta área que poderemos criar nosso primeiros paragrafos, titulos implementar nossas imagens e uma variedade de elementos que você verá aqui neste site.</p><br><br>
+                    <p><b>Um exemplo simples de titulo e paragrafo:</b></p>
+                    <p><b>&lt;body&gt;:</b> Abre a seção de corpo do conteúdo html, onde o conteúdo visível da página é colocado.
+<br>                    <br>
+                        <b>&lt;h1&gt;:</b>Cria um titulo na nossa pagína<b>&lt;/h1&gt;</b>
+                        <br><br>
+                        <b>&lt;p&gt;:</b> Cria um paragrafo na nossa página<b>&lt;/p&gt;</b>
+                    </p><br>
+                    <h1>Colocando na prática.</h1>
+                    <video src="Videos/Estrutura/Action 01-05-2024 15-01-05.mp4" controls></video>
+                    <p><b>Explicação:</b> Neste video explicamos de forma simples como você pode acrescentar um elemento do tipo título e parágrafo na sua página, dentro do nosso campo body abrimos e fechamos uma tag de tìtulo<b>(&lt;h1&gt;:</b>---<b>&lt;/h1&gt;)</b>
+                    acrescentamos o texto que quisermos dentro delas, da mesma forma que no vídeo, após acrescentamos um parágrafo <b>&lt;p&gt;</b>----<b>&lt;/p&gt;</b> acrescentamos o nosso conteúdo e salvamos o nosso projeto (shift + s). na pasta onde salvamos o nosso projeto, apertamos duas vezes no nosso arquivo html, este será aberto no navegador padrão, após o navegador abrir, podemos ver o nosso resultado final. <b>Adicional:</b>A url que aparecerá, indicará o local onde o nosso arquivo está, como no video mostra.</p>
+                    <br>
+                    <hr id="boldline-gray">
+                    <h1>Video de reforço:</h1>
+                    <iframe width="853" height="480" src="https://www.youtube.com/embed/0pShBr4Qmt0?list=PL2Fdisxwzt_cajoGVWTx44wM6Ht09QJ3A" title="Curso HTML Completo: Aula 10  - Listas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p>Crédito ao canal "Programação web" no youtube. (Referente ao vídeo utilizado)</p>   
+
+                </div>
+                </div>
+                <div class="oculto" id="lista">
+                 <ul> 
+                    <h1 id="link">HTML tutorial</h1>
+                    <li><a href="Utilizando_Visual_Studios.html">Introdução ao Vscode</a></li>
+                    <li><a href="Estrutura_básica.html">HTML Estrutura</a></li>
+                    <li><a href="Listas.html" id="link">HTML Listas</a></li>
+                    <li><a href="Imagens.html" id="link">HTML Imagens</a></li>
+                    <li><a href="Tabelas.html" id="link">HTML Tabela</a></li>
+                    <li><a href="Input.html" id="link">HTML Input</a></li>
+                </ul>
+            </div>
+            <!-- fim da lista -->
+                <!-- lista de att -->
+            
+            </div>
+        </div>
+    </div>
+    <!-- fim da pagina -->
+    <!-- fim do container -->
+    <script src="JavaScript/Script.js"></script>
+</body>
+</html>
