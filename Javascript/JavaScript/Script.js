@@ -16,4 +16,6 @@ function sumir(lista,pag,nav) {
       lista.style.transition = "0.3s";
       pag.style.transition = "0.3s";
     }}
+
+    
    

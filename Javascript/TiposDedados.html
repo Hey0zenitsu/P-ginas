@@ -35,9 +35,34 @@
               <p><b>Number:</b> Representa valores numéricos e é essencial para cálculos aritméticos e operações matemáticas em JavaScript.</p>
                 
                 <p><b>Boolean:</b> São dados simples que indicam se algo é verdadeiro (true) ou falso (false). São úteis para controle de fluxo e lógica em programas.</p>
-                
                 <br>
-                <br> 
+                <h1>Tabela de itens:</h1>
+                <div class="table">
+                    <table id="table_definied">
+                    <tr>
+                          <th id="topo-l">Tag</th>
+                          <th>Tradução</th>
+                          <th id="topo-r">Função</th>
+                    </tr>
+                    <tr>
+                          <td>Number</td>
+                          <td>Número</td>
+                          <td>Define um dado com funções aritiméticas</td>
+                    </tr>
+                    </tr>
+                    <tr>
+                        <td>String</td>
+                        <td>cadeia de linhas</td>
+                        <td>Define um conjunto de caractere</td>
+                    </tr>
+        
+                    <tr id="inf-l">
+                        <td>Boolean</td>
+                        <td>Boleano</td>
+                        <td>Dado com Apenas Dois Tipos De Dados</td>
+                    </tr>
+                    </table>
+                </div>
                 <h1>Tipo Número.</h1>
                 <br>
                 <p>Os números são essenciais em diversas áreas, como matemática, física e química. Em JavaScript, podemos usá-los para realizar cálculos, medições de tempo e obter médias.</p>
@@ -45,8 +70,9 @@
                     <p id="head-card">Ex:</p>
                     <p>var num1 = 1; <b id="coment">//Declarando uma variável</b></p> <br>
                     <p>var num2 = 2; <b id="coment">//Declarando uma variável</b></p> <br>
-                    <p>var soma = num1 + num2; <b id="coment">// Somando duas variáveis. Resultado: 3</b></p>
+                    <p>var soma = num1 + num2; <b id="coment1">// Somando duas variáveis. Resultado: </b></p>
                     <br>
+                    <button onclick=" somar1()">Run</button>
                 </div>
                 <h1>Número Flutuante</h1>
                    <p>Em JavaScript, números com casas decimais são representados usando pontos em vez de vírgula.</p> 
@@ -54,8 +80,9 @@
                         <p id="head-card">Ex:</p>
                         <p>var numero1 = 2.5; <b id="coment">// Variavel com valor de numero flutuante</b></p>
                         <br>
-                        <p>var numero2 = 10 / 3; <b id="coment">// Resultado: 3.333333</b></p>
+                        <p>var numero2 = 10 / 3; <b id="coment2">// Resultado:</b></p>
                         <br>
+                        <button onclick="divisão()">Run</button>
                     </div>
                 
 
@@ -76,7 +103,7 @@
                     <br>
                     <p>Var idade = '17' <b id="coment">// Variavel com valor String</b></p>
                     <br>
-                    <p>Var nickname = "Bolsonminion17";  <b id="coment">// Variavel com valor String</b></p>
+                    <p>Var nickname = "Snow17";  <b id="coment">// Variavel com valor String</b></p>
                     <br>
                 </div>
                 <h1>Aspas Simples ou Duplas?</h1>
@@ -87,12 +114,13 @@
                     <p id="head-card">Ex:</p>
                     <p>var frase = 'Embora ele seja estranho de primeiro momento, ele até que é bem "divertido", sabe?';   <b id="coment">// Variavel com valor String</b></p>
                     <br>
-                    <p>var frase = 'Embora ele seja estranho, ele até que é 'legalzinho', sabe?';<b id="coment">// Variavel com valor String</b></p>
+                    <p>var frase = 'Embora ele seja estranho, ele até que é 'legalzinho', 'sabe?';<b id="coment">// Variavel com valor String</b></p>
                     <br>
-                    <p>Var nickname = "Bolsonminion17";  <b id="coment">// Variavel com valor String</b></p>
+                    <p>Var nickname = "Snow17";  <b id="coment">// Variavel com valor String</b></p>
                     <br>
                 </div>
-                </div>
+                <br><br>
+                <hr id="boldline">
                 <h1>Tipo Booleano</h1>
                 <p>Os dados booleanos indicam se uma afirmação é verdadeira ou falsa, o que é útil para controle de fluxo e tomada de decisões em programas.</p>
                 <br>
@@ -100,23 +128,16 @@
                     <p id="head-card">Ex:</p>
                     <p>var numero = 5; <b id="coment">// Declarando uma variável com valor 5.</b></p>
                     <br>
-                    <p>var Booleano1 = numero &lt; 6; <b id="coment">// true</b></p>
+                    <p>var Booleano1 = numero &lt; 6; <b id="coment3">// Resultado </b></p>
                     <br>
-                    <p>var Booleano2 = numero &gt; 6; <b id="coment">// false </b></p>
+                    <p>var Booleano2 = numero &gt; 6; <b id="coment4">// Resultado  </b></p>
                     <br>
+                    <button onclick="boolean()">Run</button>
                 </div>
                 <p>Na variável Booleano1, a resposta é verdadeira, pois numero é menor que 6. Na Booleano2, a resposta é falsa, pois numero não é maior que 6.</p>
-               <div class="color-black">
-                <h1>Extra.</h1>
-                <p>Também existem os tipos de dados null e undefined. Estes são tipos de dados vazios, com uma diferença entre eles: o tipo de dado null atribui um valor vazio a uma variável, enquanto undefined representa um valor não especificado que está vazio.</p>
-                <div class="card_p">
-                    <p id="head-card">Ex:</p>
-                    <p>var vazio = null; <b id="coment">// Variável vazia.</b></p>
-                    <br>
-                    <p>var vazia = ;  <b id="coment">// Variável literalmente vazia.</b></p>
-                    <br>
-                </div>
-               </div> 
+                <br>
+                <p>A partir daqui temos uma prévia do que são tipos de dados, há alguns outros tipos, porém, estes veremos ao decorrer da página.</p>
+                </div>  
             </div>
             <div class="oculto" id="lista">
                 <ul> 
@@ -133,6 +154,27 @@
     </div>
     <!-- fim da pagina -->
     <!-- fim do container -->
-    <script src="JavaScript/Script.js"></script>
+    <script>
+        function somar1(){
+    var num1 = 1;
+    var num2 = 2;
+    var soma = num1 + num2;
+    document.getElementById('coment1').innerHTML = `// Somando duas variáveis. Resultado --> ${soma}`
+  }
+function divisão(){
+  var numero1 = 2.5; 
+  var numero2 = 10 / 3;
+  document.getElementById('coment2').innerHTML = `// Resultado --> ${numero2}`
+
+}
+function boolean(){
+  var numero = 5; // Declarando uma variável com valor 5.
+  var Booleano1 = numero < 6; // true
+  var Booleano2 = numero > 6; // false
+  document.getElementById('coment3').innerHTML = `// Resultado --> ${Booleano1}`
+  document.getElementById('coment4').innerHTML = `// Resultado --> ${Booleano2}`
+
+}
+    </script>
 </body>
 </html>
