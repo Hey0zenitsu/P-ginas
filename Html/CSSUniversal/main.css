@@ -55,10 +55,6 @@
     margin: 15px;
     float: right;
 }
-#btn_menu:hover{
-    transform: rotateZ(180deg);
-    transition: 1s;
-}
 nav a::after {
     content: "";
     margin-top: 8px;
